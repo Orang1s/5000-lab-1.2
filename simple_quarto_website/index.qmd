@@ -1,0 +1,92 @@
+---
+title: "simple_quarto_website"
+
+format:
+    html:
+        html-math-method: mathjax
+        toc: true
+
+bibliography: reference.bib
+---
+## Section 1: Overview
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin rhoncus dui vitae nibh ullamcorper sodales. Vivamus at congue mauris. Nulla non porta mi, vel pretium arcu. Donec feugiat pulvinar mi quis molestie. Cras et mauris nec ipsum posuere egestas in ut quam. Nam viverra nulla et lobortis semper.
+
+## Section 2: Features
+
+### Etiam et ultricies massa
+
+::: columns
+::: {.column width="50%"}
+- Feature 1
+- Feature 2
+- Feature 3
+:::
+
+::: {.column width="50%"}
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+:::
+:::
+
+### Quisque lobortis
+
+- 1
+- 2
+- 3
+
+## Section 3: Data and Analysis
+
+### Table
+
+| Morbi  | price  |
+|--------|--------|
+| Urna  | 2.05   |
+| Orci   | 1.37   |
+| Culiba | 3.09   |
+
+: Morbi price {.striped .hover}
+
+### Inline Math
+
+Following is the equation: $E = mc^2$.
+
+### Non-Inline Math
+
+$$
+f(x) = ax^2 + bx + c
+$$
+
+### Foot-note
+
+Sed porttitor sodales turpis quis sodales. Maecenas non nunc et elit faucibus ultrices [^1], onec ac tortor nec ipsum placerat luctus quis sed metus.[@firat2023chat]
+
+> "Vivamus sit amet ipsum quis ante condimentum pulvinar sed et magna." -whoever said it.
+
+[^1]: "elit ex sodales risus."
+
+## Section 4: media
+
+### Images
+
+![Image 1](images/luna.png){ width="480px" }
+
+
+### Video
+
+{{< video images/mov_bbb.mp4
+title='Video 1'
+>}}
+
+## Last Section
+
+### Extra stuff
+
+```{mermaid}
+flowchart LR
+  A[Reason 1] --> B(Reason 2)
+  B --> C{Hey}
+  C --> D[First]
+  C --> E[Second]
+```
+
+To learn more about Quarto websites visit <https://quarto.org/docs/websites>.

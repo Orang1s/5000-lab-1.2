@@ -1,0 +1,29 @@
+---
+title: "About"
+
+format:
+    html:
+        html-math-method: mathjax
+        toc: true
+---
+
+## About graphs
+
+Class quis luctus mi eget turpis. Rhoncus condimentum consequat ullamcorper facilisi praesent pretium pretium. Auctor in cubilia egestas netus pellentesque sociosqu porttitor dis. Fames pretium dolor auctor sociosqu lobortis. Aptent accumsan integer aliquet scelerisque nibh. Dis scelerisque dis curabitur sodales feugiat nisl ad. Tellus vestibulum interdum nibh mus malesuada cursus.
+
+
+```{python}
+import matplotlib.pyplot as plt
+import numpy as np
+
+# Generating some data
+x = np.linspace(0, 10, 100)
+y = np.sin(x)
+
+# Plotting the data
+plt.plot(x, y)
+plt.title("Sample Sine Wave")
+plt.xlabel("X-axis")
+plt.ylabel("Y-axis")
+plt.show()
+```

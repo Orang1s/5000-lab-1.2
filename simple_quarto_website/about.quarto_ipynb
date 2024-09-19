@@ -1,0 +1,58 @@
+{
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {},
+      "source": [
+        "---\n",
+        "title: \"About\"\n",
+        "\n",
+        "format:\n",
+        "    html:\n",
+        "        html-math-method: mathjax\n",
+        "        toc: true\n",
+        "---\n",
+        "\n",
+        "\n",
+        "\n",
+        "\n",
+        "## About graphs\n",
+        "\n",
+        "Class quis luctus mi eget turpis. Rhoncus condimentum consequat ullamcorper facilisi praesent pretium pretium. Auctor in cubilia egestas netus pellentesque sociosqu porttitor dis. Fames pretium dolor auctor sociosqu lobortis. Aptent accumsan integer aliquet scelerisque nibh. Dis scelerisque dis curabitur sodales feugiat nisl ad. Tellus vestibulum interdum nibh mus malesuada cursus.\n"
+      ],
+      "id": "58b064b1"
+    },
+    {
+      "cell_type": "code",
+      "metadata": {},
+      "source": [
+        "import matplotlib.pyplot as plt\n",
+        "import numpy as np\n",
+        "\n",
+        "# Generating some data\n",
+        "x = np.linspace(0, 10, 100)\n",
+        "y = np.sin(x)\n",
+        "\n",
+        "# Plotting the data\n",
+        "plt.plot(x, y)\n",
+        "plt.title(\"Sample Sine Wave\")\n",
+        "plt.xlabel(\"X-axis\")\n",
+        "plt.ylabel(\"Y-axis\")\n",
+        "plt.show()"
+      ],
+      "id": "ffc46505",
+      "execution_count": null,
+      "outputs": []
+    }
+  ],
+  "metadata": {
+    "kernelspec": {
+      "name": "python3",
+      "language": "python",
+      "display_name": "Python 3 (ipykernel)",
+      "path": "/Users/orang1sus/miniconda3/share/jupyter/kernels/python3"
+    }
+  },
+  "nbformat": 4,
+  "nbformat_minor": 5
+}
